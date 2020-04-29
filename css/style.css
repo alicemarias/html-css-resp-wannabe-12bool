@@ -40,7 +40,7 @@
   text-align: center;
 }
 
-/* BLOCCO PERCHE */
+/* BLOCCO WHY */
 #why {
   text-align: center;
 }
@@ -78,4 +78,30 @@ img {
 
 .clear {
   clear: both;
+}
+
+/* IMPOSTAZIONI MEDIA QUERY XS */
+
+@media screen and (max-width: 769px) {
+  #lezioni img {
+    height: 100px;
+  }
+  #lezioni {
+    background-color: #ffe6b3
+  }
+  #steps img {
+  height: 110px;}
+  #steps {
+    background-color: #adebeb;
+  }
+  #why img {
+   height: 100px;
+  }
+  #why {
+    background-color: #ffb3b3;
+  }
+  #why hr {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
